@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function PrivacyPolicy() {
   return (
@@ -44,9 +45,9 @@ function PrivacyPolicy() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="/" className="bg-[#FFEF20] text-black py-2 px-6 rounded-lg font-semibold hover:bg-yellow-500">
+          <Link to="/" className="bg-[#FFEF20] text-black py-2 px-6 rounded-lg font-semibold hover:bg-yellow-500">
             Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </section>
