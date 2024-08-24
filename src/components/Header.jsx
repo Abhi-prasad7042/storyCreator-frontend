@@ -78,9 +78,16 @@ function Header() {
   return (
     <nav className="bg-black text-[#387F39] shadow-custom-light">
       <div className="flex items-center justify-between px-4 py-3">
-        <div className="flex items-center space-x-4">
-          <div className="text-2xl font-bold text-purple-500">TalesTogether</div>
+      <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center border border-gray-300">
+          <img
+            src="/logo.png" /* Replace this with your logo image URL */
+            alt="TalesTogether Logo"
+            className="w-full h-full object-cover"
+          />
         </div>
+        <div className="text-2xl font-bold text-purple-500">TalesTogether</div>
+      </div>
 
         <div className="hidden md:flex flex-grow justify-center space-x-4">
           <Link to="/" className="text-white hover:text-green-400">Home</Link>
